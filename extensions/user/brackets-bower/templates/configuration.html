@@ -1,0 +1,34 @@
+<div class="bower-section-panel">
+
+    <div class="header-section">
+        <div class="bower-title">{{ Strings.TITLE_CONFIG }}</div>
+    </div>
+
+    <div class="bower-data-section">
+        <div class="bower-data-fieldset" {{#bowerRc}} data-bower-config="{{ bowerRc.AbsolutePath }}" {{/bowerRc}}>
+            <label class="bower-data-title">bowerrc: </label>
+
+            {{#bowerRc}}
+            <label>{{ bowerRc.AbsolutePath }}</label>
+            {{/bowerRc}}
+
+            {{^bowerRc}}
+            <label>{{ Strings.BOWERRC_NOT_FOUND}}</label>
+            {{/bowerRc}}
+        </div>
+
+        <div>
+            {{#bowerRc}}
+            <button class="btn small" data-bower-config-action="delete" title="{{Strings.DELETE}}">
+                <span>{{ Strings.DELETE }}</span>
+            </button>
+            {{/bowerRc}}
+
+            {{^bowerRc}}
+            <button class="btn small" data-bower-config-action="create" title="{{Strings.CREATE}}">
+                <span>{{ Strings.CREATE }}</span>
+            </button>
+            {{/bowerRc}}
+        </div>
+    </div>
+</div>

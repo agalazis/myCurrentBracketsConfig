@@ -1,0 +1,276 @@
+.bower-panel-header .title {
+    padding-right: 10px;
+}
+
+.bower-panel-header .panels .btn-bower-panel-active {
+    background-color: #555;
+    box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.06);
+    color: #ffffff;
+}
+
+.bower-panel-header .tools {
+    margin-right: 10px;
+}
+
+.bower-panel-header .tools > div {
+    padding: 0 10px 0 5px;
+}
+
+.bower-panel-header .tools #bower-commands,
+.bower-panel-header .tools #bower-sync {
+    display: inline-block;
+}
+
+.bower-panel-header .tools #bower-sync .sync-title {
+    color: #9f681c;
+    padding: 0 3px;
+}
+
+.dark .bower-panel-header .tools #bower-sync .sync-title {
+    color: #d9a45a;
+}
+
+.bower-panel-header .bower-active-path {
+    margin: 0 auto;
+    padding: 0 5px;
+    text-align: center;
+}
+
+.bower-panel-header .bower-panel-header-wrapper {
+    display: flex;
+    width: calc(100% - 14px);
+}
+
+/* panel */
+
+#bower-config-icon {
+    background: url("bower-icon.png") no-repeat 0 0;
+    background-position: 0 0;
+}
+
+#bower-config-icon.success {
+    background-position: 0 -25px;
+}
+
+#bower-config-icon.active {
+    background-position: 0 -49px;
+}
+
+#bower-config-icon.warning {
+    background-position: 0 -73px;
+}
+
+#bower-config-icon.error {
+    background-position: 0 -97px;
+}
+
+.bower-update {
+    color: #3b9b3b;
+    font-weight: bold;
+}
+
+/* notification dialog */
+
+#bower-notification-dialog[data-severity-type=warning] .modal-header {
+    background-color: #e3b551;
+}
+
+#bower-notification-dialog[data-severity-type=warning] .dialog-title {
+    color: #fff;
+}
+
+#bower-notification-dialog .bower-dialog-summary,
+#bower-notification-dialog .bower-dialog-note {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* status bar */
+
+#status-bower {
+    margin: 0 5px 0 5px;
+}
+
+#status-bower .status-information,
+#status-bower .status-progress {
+    display: inline-block;
+    padding-right: 10px;
+}
+
+#status-bower .status-information {
+    color: #1b5d1b;
+}
+
+.dark #status-bower .status-information {
+    color: #3b9b3b;
+}
+
+#status-bower .status-progress .info {
+    display: inline-block;
+    padding-right: 5px;
+}
+
+#status-bower .status-progress.hide {
+    display: none;
+}
+
+#status-bower .status {
+    margin-right: 5px;
+}
+
+#status-bower .spinner {
+    top: 3px;
+}
+
+/* bower.json section */
+
+.bower-data-section {
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 8px;
+}
+
+.bower-data-section > div {
+    flex: 0 1 auto;
+    padding: 3px;
+}
+
+.bower-data-fieldset > label {
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.bower-data-fieldset .bower-data-title {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+}
+
+/* loaders section */
+
+#brackets-bower-panel-loading {
+    display: none;
+    height: 100%;
+    width: 100%;
+}
+
+#brackets-bower-panel-loading > div {
+    display: block;
+    margin: auto;
+    padding: 3px;
+    position: relative;
+    top: 40%;
+}
+
+.bower-packages-loading > div {
+    display: block;
+    margin: auto;
+    padding: 3px;
+}
+
+/* common */
+
+.bower-title {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.bower-btn {
+    cursor: pointer;
+}
+
+.bower-row-item {
+    display: inline-block;
+    padding: 1px 8px;
+}
+
+.bower-row-item .bower-pkg-warning,
+.bower-row-item .bower-pkg-dev,
+.bower-row-item .bower-pkg-prod,
+.bower-row-item .bower-pkg-latest-version {
+    border-radius: 5px;
+    padding: 0 10px;
+    text-transform: lowercase;
+}
+
+.bower-row-item .bower-pkg-latest-version {
+    background-color: #3b9b3b;
+    color: #ffffff;
+}
+
+.bower-row-item .bower-pkg-warning {
+    background-color: #efd85a;
+    color: #000000;
+}
+
+.bower-row-item .bower-pkg-dev {
+    background-color: #d9a45a;
+    color: #ffffff;
+}
+
+.bower-row-item .bower-pkg-prod {
+    background-color: #55b589;
+    color: #ffffff;
+}
+
+.bower-row-item.bower-pkg-name {
+    padding-right: 15px;
+}
+
+.bower-row-item.bower-pkg-name .bower-text-m {
+    display: inline-block;
+    padding-right: 5px;
+}
+
+/* configuration files: .bowerrc and bower.json */
+
+.bower-section-panel {
+    display: flex;
+    flex-direction: column;
+}
+
+.bower-section-panel .header-section {
+    padding: 8px;
+}
+
+
+.bower-section-panel .header-section .bower-title {
+    padding-bottom: 3px;
+}
+
+.bower-section-panel tr:hover {
+    cursor: pointer;
+}
+
+/* packages section */
+
+.bower-section-panel .bower-packages-section {
+    display: flex;
+}
+
+/* settings dialog */
+
+#bower-settings-dialog .settings label {
+    padding: 3px 0 3px 0;
+}
+
+#bower-settings-dialog .settings input {
+    height: 14px;
+    margin-bottom: 0;
+}
+
+#bower-settings-dialog .settings .small {
+    width: 8em;
+}
+
+#bower-settings-dialog .settings .error {
+    color: #ff0000;
+}
+
+#bower-settings-dialog .hide {
+    display: none;
+}

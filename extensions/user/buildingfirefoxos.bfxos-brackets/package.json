@@ -1,0 +1,12 @@
+{
+    "name": "buildingfirefoxos.bfxos-brackets",
+    "title": "BFxOS for Brackets",
+    "description": "Want to create a Firefox OS app? Browse buildingfirefoxos.com within Brackets, and copy/paste the markup you need in your app, to get the Firefox OS look & feel.",
+    "homepage": "https://github.com/buildingfirefoxos/bfxos-brackets",
+    "version": "0.0.1",
+    "author": "Arnau March @RnowM",
+    "license": "MIT",
+    "engines": {
+        "brackets": ">=0.27.0"
+    }
+}

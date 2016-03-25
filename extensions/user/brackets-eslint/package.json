@@ -1,0 +1,66 @@
+{
+  "name": "brackets-eslint",
+  "version": "2.1.2",
+  "description": "Adds ESLint support to Brackets",
+  "keywords": [
+    "brackets-extension",
+    "eslint",
+    "lint",
+    "linting",
+    "linter"
+  ],
+  "homepage": "https://github.com/zaggino/brackets-eslint",
+  "bugs": {
+    "url": "https://github.com/zaggino/brackets-eslint/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Martin Zagora",
+    "email": "zaggino@gmail.com",
+    "url": "https://github.com/zaggino"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zaggino/brackets-eslint.git"
+  },
+  "scripts": {
+    "test": "gulp test"
+  },
+  "dependencies": {
+    "babel-eslint": "latest",
+    "enable-global-packages": "latest",
+    "eslint": "latest",
+    "eslint-plugin-react": "latest"
+  },
+  "devDependencies": {
+    "gulp": "3.x",
+    "gulp-eslint": "0.x",
+    "gulp-util": "3.x",
+    "through2": "0.x"
+  },
+  "engines": {
+    "brackets": ">=1.2.0"
+  },
+  "gitHead": "6ee83a0dd8c943f9fc80a65ee3f61d7386d79148",
+  "_id": "brackets-eslint@2.1.2",
+  "_shasum": "1d9fa176aab6502beefd2adeb8b406b97d98cc3c",
+  "_from": "brackets-eslint@*",
+  "_npmVersion": "3.5.3",
+  "_nodeVersion": "4.2.2",
+  "_npmUser": {
+    "name": "zaggino",
+    "email": "zaggino@gmail.com"
+  },
+  "dist": {
+    "shasum": "1d9fa176aab6502beefd2adeb8b406b97d98cc3c",
+    "tarball": "http://registry.npmjs.org/brackets-eslint/-/brackets-eslint-2.1.2.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "zaggino",
+      "email": "zaggino@gmail.com"
+    }
+  ],
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/brackets-eslint/-/brackets-eslint-2.1.2.tgz"
+}

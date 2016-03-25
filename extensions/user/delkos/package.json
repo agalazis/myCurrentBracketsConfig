@@ -1,0 +1,20 @@
+{
+    "title": "Delkos Dark Theme",
+    "name": "delkos",
+    "description": "A dark, elegant, easy readable theme.",
+    "version": "0.0.4",
+    "author": "David Sánchez i Gregori",
+    "license": "MIT",
+    "homepage": "https://github.com/David5i6/Brackets-Delkos-Dark-Theme",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/David5i6/Brackets-Delkos-Dark-Theme.git"
+    },
+    "engines": {
+        "brackets": ">=0.42.0"
+    },
+    "theme": {
+        "file": "delkos.css",
+        "dark": true
+    }
+}
